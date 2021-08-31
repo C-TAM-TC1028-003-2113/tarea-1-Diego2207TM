@@ -1,6 +1,8 @@
 def main():
-    a = float(input("Indique la acantidad de juegos nuevos comprados:"))
-    b = float(input("Indique la cantidad de juegos usados comprados:"))
+    a = float(input("Dame la cantidad de juegos nuevos:"))
+    b = float(input("Dame la cantidad de juegos usados:"))
     c = (a*1000)+(b*350)
-    print("La cantidad a pagar es de",c,"pesos")
+    print("El total de la compra es:",c)
 
+if __name__ == '__main__':
+    main()

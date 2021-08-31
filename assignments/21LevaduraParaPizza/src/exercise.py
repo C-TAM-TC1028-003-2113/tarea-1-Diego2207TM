@@ -1,5 +1,7 @@
 def main():
-a = float(input("Ingrese la cantidad de gramos de harina a utilizar"))
-b = (a*50)/1000
-print("Los gramos de levadura a usar son",b,"gramos")
+   a = float(input("Dame la harina en gramos:"))
+   b = (a*50)/1000
+   print("Necesitas estos gramos de levadura:",b)
 
+if __name__ == '__main__':
+    main()
