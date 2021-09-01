@@ -1,10 +1,10 @@
 def main():
-  a = float(input("Dame y1: "))
-  b = float(input("Dame y2: "))
-  c = float(input("Dame x1: "))
-  d = float(input("Dame x2: "))
+  a = float(input("Dame x1: "))
+  b = float(input("Dame y1: "))
+  c = float(input("Dame x2: "))
+  d = float(input("Dame y2: "))
 
-  m =(b-a)/(d-c)
+  m =(d-b)/(c-a)
   print("Pendiente:",m)
 
 if __name__ == '__main__':
