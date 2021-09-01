@@ -1,5 +1,5 @@
 def main():
-   a = float(input("Dame el número de palabras:"))
+   a = float(input("Dame el número de palabras: "))
    b = (a//475)*60
    c = a%475
    if 1<=c:

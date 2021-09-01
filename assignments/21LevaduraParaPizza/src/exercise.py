@@ -1,5 +1,5 @@
 def main():
-   a = float(input("Dame la harina en gramos:"))
+   a = float(input("Dame la harina en gramos: "))
    b = (a*50)/1000
    print("Necesitas estos gramos de levadura:",b)
 

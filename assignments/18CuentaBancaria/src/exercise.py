@@ -1,8 +1,8 @@
 def main():
-   saldoa = float(input("Dame el saldo del mes anterior:"))
-   ingresos = float(input("Dame los ingresos:"))
-   egresos = float(input("Dame los egresos:"))
-   cheque = float(input("Dame el número de cheques:"))
+   saldoa = float(input("Dame el saldo del mes anterior: "))
+   ingresos = float(input("Dame los ingresos: "))
+   egresos = float(input("Dame los egresos: "))
+   cheque = float(input("Dame el número de cheques: "))
 
    saldop = float(saldoa-egresos+ingresos-(cheque*13))
    saldot = float(saldop-(saldop*7.5/100))
